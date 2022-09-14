@@ -1,5 +1,3 @@
-# foodle
-
 <div align="center">
   <a href="https://github.com/ITManZero/foodle">
     <img
