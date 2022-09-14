@@ -47,3 +47,11 @@
 This server handle the complex business behind managing restaurants operations.
 
 Our system should be able to have multiple restaurants and branches, events like acctepting and rejecting customer orders, our server is responible to manage work of each reastaurant and its branches theire menus and meals.
+
+
+# Services
+- Authentication Service: tells wether a request is auhtenticated or not.
+- Restaurant Service: responsible to manage restauarants, branches, menus and meals. 
+- User Service: 
+  - Tells wether the user is exisits or not.
+  - Manages user types and roles.
