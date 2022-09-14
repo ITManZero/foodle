@@ -55,3 +55,52 @@ Our system should be able to have multiple restaurants and branches, events like
 - User Service: 
   - Tells wether the user is exisits or not.
   - Manages user types and roles.
+
+# Folder Structer
+```sh
++-- bin // Custom tasks
++-- dist // Source build
++-- public // Static Files
++-- lib/common // Global Nest Library
+    +-- config // Environment Configuration
+    +-- entities // TypeORM Entities or Mongoose Schemas
+    +-- factories // factory for building objects
+    +-- enums // Constant value and Enum
+    +-- controllers // Nest Controllers
+    +-- decorators // Nest Decorators
+    +-- dto // DTO (Data Transfer Object) Schema, Validation
+    +-- filters // Nest Filters
+    +-- guards // Nest Guards
+    +-- interceptors // Nest Interceptors
+    +-- interfaces // TypeScript Interfaces
+    +-- middleware // Nest Middleware
+    +-- pipes // Nest Pipes
+    +-- providers // Nest Providers
+    +-- services // Nest Services
++-- apps // microservices
+    +-- service-1
+    +-- service-2
+    +-- service-3
+        +- test // Jest testing
+        +-- src
+            +-- module-1
+            +-- module-2
+            +-- module-3
+                +-- config // Environment Configuration
+                +-- entity // TypeORM Entities or Mongoose Schemas
+                +-- constants // Constant value and Enum
+                +-- controllers // Nest Controllers
+                +-- services //Nest Services
+                +-- dto // DTO (Data Transfer Object) Schema, Validation
+                +-- decorators // Nest Decorators
+                +-- filters // Nest Filters handle exceptions
+                +-- guards // Nest Guards protect endpoint
+                +-- interceptors // Nest Interceptors control the execution context
+                +-- interfaces // TypeScript Interfaces
+                +-- middleware // Nest Middleware
+                +-- pipes // Nest Pipes
+                +-- providers // Nest Providers
+                +-- module-3.module.ts
+            +-- service-3.module.ts
+            +-- main.ts
+```
