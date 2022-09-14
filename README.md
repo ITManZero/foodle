@@ -64,7 +64,7 @@ Our system should be able to have multiple restaurants and branches, events like
 +-- lib/common // Global Nest Library
     +-- config // Environment Configuration
     +-- entities // TypeORM Entities or Mongoose Schemas
-    +-- factories // factory for building objects
+    +-- factories // dynamic objects building
     +-- enums // Constant value and Enum
     +-- controllers // Nest Controllers
     +-- decorators // Nest Decorators
