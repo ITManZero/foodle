@@ -50,7 +50,7 @@ Our system should be able to have multiple restaurants and branches, events like
 
 
 # Services
-- `Authentication:` Service: tells wether a request is auhtenticated or not.
+- `Authentication Service:` tells wether a request is auhtenticated or not.
 - `Restaurant Service:` responsible to manage restauarants, branches, menus and meals. 
 - `User Service:` 
   - Tells wether the user is exisits or not.
@@ -107,3 +107,5 @@ Our system should be able to have multiple restaurants and branches, events like
             +-- service-3.module.ts
             +-- main.ts
 ```
+
+# Setup & Installation
