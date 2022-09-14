@@ -76,7 +76,9 @@ Our system should be able to have multiple restaurants and branches, events like
     +-- middleware // Nest Middleware
     +-- pipes // Nest Pipes
     +-- providers // Nest Providers
+    +-- modules // Nest Providers
     +-- services // Nest Services
+    +-- utils // utility class
 +-- apps // microservices
     +-- service-1
     +-- service-2
@@ -100,6 +102,7 @@ Our system should be able to have multiple restaurants and branches, events like
                 +-- middleware // Nest Middleware
                 +-- pipes // Nest Pipes
                 +-- providers // Nest Providers
+                +-- helpers // manipulates enums , casting types
                 +-- module-3.module.ts
             +-- service-3.module.ts
             +-- main.ts
