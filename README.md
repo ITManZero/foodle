@@ -29,8 +29,7 @@
 <a href="http://nestjs.com/"><img src="https://img.shields.io/badge/framework-nestjs-red" alt="nestjs Framework" /></a>
 <a href="" target="_blank"><img src="https://img.shields.io/badge/coverage-60%25-green" alt="Coverage" /></a>
 <a href="http://nodejs.org/"><img src="https://img.shields.io/badge/docker-^20.10.16-yellow" alt="docker" /></a>
-  
-<div>
+
   </br>
   </br>
     <a href="https://hoppscotch.io/#gh-dark-mode-only" target="_blank">
@@ -40,5 +39,11 @@
         width="100%"
       />
     </a>  
+    </br>
+    </br>
 </div>
- 
+
+# Introduction
+This server handle the complex business behind managing restaurants operations.
+
+Our system should be able to have multiple restaurants and branches, events like acctepting and rejecting customer orders, our server is responible to manage work of each reastaurant and its branches theire menus and meals.
