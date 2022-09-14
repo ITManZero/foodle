@@ -44,7 +44,7 @@
 </div>
 
 # Introduction
-This server handle the complex business behind managing restaurants operations.
+This server handle the complex business behind restaurants management operations.
 
 Our system should be able to have multiple restaurants and branches, events like acctepting and rejecting customer orders, our server is responible to manage work of each reastaurant and its branches theire menus and meals.
 
