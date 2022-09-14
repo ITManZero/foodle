@@ -50,9 +50,9 @@ Our system should be able to have multiple restaurants and branches, events like
 
 
 # Services
-- Authentication Service: tells wether a request is auhtenticated or not.
-- Restaurant Service: responsible to manage restauarants, branches, menus and meals. 
-- User Service: 
+- `Authentication:` Service: tells wether a request is auhtenticated or not.
+- `Restaurant Service:` responsible to manage restauarants, branches, menus and meals. 
+- `User Service:` 
   - Tells wether the user is exisits or not.
   - Manages user types and roles.
 
