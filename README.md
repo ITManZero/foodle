@@ -28,4 +28,17 @@
 <a href="http://nodejs.org/"><img src="https://img.shields.io/badge/node-^14.16.0-blue" alt="node" /></a>
 <a href="http://nestjs.com/"><img src="https://img.shields.io/badge/framework-nestjs-red" alt="nestjs Framework" /></a>
 <a href="" target="_blank"><img src="https://img.shields.io/badge/coverage-60%25-green" alt="Coverage" /></a>
-  <a href="http://nodejs.org/"><img src="https://img.shields.io/badge/docker-^20.10.16-yellow" alt="docker" /></a>
+<a href="http://nodejs.org/"><img src="https://img.shields.io/badge/docker-^20.10.16-yellow" alt="docker" /></a>
+  
+<div>
+  </br>
+  </br>
+    <a href="https://hoppscotch.io/#gh-dark-mode-only" target="_blank">
+      <img
+        src="https://user-images.githubusercontent.com/73588285/190106491-5488a683-057b-46c7-8b95-d51e805c66f2.png"
+        alt="architecture"
+        width="100%"
+      />
+    </a>  
+</div>
+ 
