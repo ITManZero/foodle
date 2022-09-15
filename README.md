@@ -136,7 +136,11 @@ Software         |  Version   |  Download
        `server.properties` in the following dirictory `path-to-kafka/config/`.
      * *mysql:*  default port `3306`.
      * *mongodb:* defaut port `27017`.
-     * *microservices:* each services has two build stage development and production, stage has has it's own .env file.
+     * *microservices:* 
+     
+       Each services has two build stages `development` and `production`, and each stage has has it's own env file. 
+       
+       All env files follow one [template](https://github.com/ITManZero/foodle), Also we devided environment variables to groups and we call it  `Config NameSpaces`,          to see all defined config namespaces you can find them [here]().
        - ***auth-service***
        - ***user-service***
        - ***restaurant-service***
