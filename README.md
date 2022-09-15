@@ -191,32 +191,28 @@ Software         |  Version   |  Download
       
         **dev**
         
-        for windows
+        
         
         ```sh
+        # for windows
         npm run start:dev <service-name>
         `ex:` npm run start:dev auth-service
-        ```
-        
-        for linux
-        
-        ```sh
+
+        # for linux
         npm run start-l:dev <service-name>
         `ex:` npm run start-l:dev auth-service
         ```
         
         **debug**
         
-        for windows 
+        
         
         ```sh
+        # for windows 
         npm run start:debug <service-name>
         `ex:` npm run start:debug auth-service
-        ```
         
-        for linux
-        
-        ```sh
+        # for linux
         npm run start-l:debug <service-name>
         `ex:` npm run start-l:debug auth-service
         ```
@@ -228,10 +224,6 @@ Software         |  Version   |  Download
         `ex:` npm run build auth-service
         node dist/apps/auth-service/main
         ```
-
-    
-    
-    
     
     
 * **Docker**
