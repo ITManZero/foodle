@@ -190,10 +190,29 @@ Software         |  Version   |  Download
       * start services
       
         **dev**
+        
+        for windows
+        
+        ```sh
+        npm run start:dev <service-name>
+        `ex:` npm run start:dev auth-service
+        ```
+        
+        for linux
+        
         ```sh
         npm run start-l:dev <service-name>
         `ex:` npm run start-l:dev auth-service
         ```
+        for windows 
+        
+        **debug**
+        ```sh
+        npm run start:debug <service-name>
+        `ex:` npm run start:debug auth-service
+        ```
+        
+        for linux
         
         **debug**
         ```sh
