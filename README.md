@@ -141,9 +141,33 @@ Software         |  Version   |  Download
        Each services has two build stages `development` and `production`, and each stage has has it's own env file. 
        
        All env files follow one [template](https://github.com/ITManZero/foodle), Also we devided environment variables to groups and we call it  `Config NameSpaces`,          to see all defined config namespaces you can find them [here]().
+       
+       Now each seervice can choose what it need of configuration to load as following:
+       
        - ***auth-service***
-       - ***user-service***
+         ```sh
+         const configNameSpaces = [
+          ConfigNameSpace.APP,
+          ConfigNameSpace.AUTH,
+          ConfigNameSpace.MESSAGE_BROKER ];
+         ConfigLoaderModule.forFeature( configNameSpaces , envFilePath);
+         ```
+       - ***user-service*** 
+         ```sh
+         const configNameSpaces = [
+          ConfigNameSpace.APP,
+          ConfigNameSpace.DATABASE,
+          ConfigNameSpace.MESSAGE_BROKER ];
+         ConfigLoaderModule.forFeature( configNameSpaces , envFilePath);
+         ```
        - ***restaurant-service***
+         ```sh
+         const configNameSpaces = [
+          ConfigNameSpace.APP,
+          ConfigNameSpace.DATABASE,
+          ConfigNameSpace.MESSAGE_BROKER ];
+         ConfigLoaderModule.forFeature( configNameSpaces , envFilePath);
+         ```
   2. **Running Services**
     
 
