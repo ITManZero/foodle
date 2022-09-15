@@ -107,5 +107,22 @@ Our system should be able to have multiple restaurants and branches, events like
             +-- service-3.module.ts
             +-- main.ts
 ```
+# Requirements
 
+|       Software       |  Version  |                    Download                     |
+| :------------------: | :-------: | :--------------------------------------------:  |
+| `NodeJS`             | `14.16.0` |  https://nodejs.org/en/download/releases/       |
+| `MYSQL`              | `8.0.27`  |  https://dev.mysql.com/downloads/mysql/         |
+| `MongoDB`            | `4.4.4`   |  https://www.mongodb.com/try/download/community |
+| `Apache Kafka`       | `4.4.4`   |  https://www.mongodb.com/try/download/community |
+
+
+* Windows:
+    * Runtime: Windows 7
+    * Build: Cygwin + Visual Studio 2019 version 16.10
+
+REQUIREMENTS
+------------
+
+This module requires the following modules:
 # Setup & Installation
