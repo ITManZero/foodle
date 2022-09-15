@@ -125,10 +125,25 @@ Software         |  Version   |  Download
 `Docker`         | `20.10.16` | https://www.docker.com/  
 `Docker Compose` | `1.29.2`   | https://www.docker.com/ 
 
-    Note: docker compose it will automatically be installed with docker, please install the latest version of docker.
+`Note: docker compose it will automatically be installed with docker, please install the latest version of docker.`
     
-REQUIREMENTS
-------------
-
-This module requires the following modules:
 # Setup & Installation
+
+* Locally
+    - run kafka and zookeeper by default zookeeper running on port and kafka running on port 9092 if kafka is running on diffrent port
+    you should configure its port on each service 
+    if zookeper running on diffrent port you should edit server.propties and configure zookeper port  
+    - run mysql on port 3306 
+    if you are running mysql in diffrent porn you should configure database port envirement variable of user service
+    - run mongodb
+    running on port 27017
+    if mongodb running on diffrent port you should configure database env variable of restaurant service
+    - run services
+
+    
+    
+    
+    
+    
+    
+* Docker
