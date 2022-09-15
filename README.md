@@ -172,14 +172,15 @@ Software         |  Version   |  Download
   2. **Running Services**
  
       * start kafka and zookeeper server 
-        - windows
+      
+        for **windows**
           ```sh
           cd path-to-kafka/bin/windows
           zookeeper-server-start.bat ../../config/zookeeper.properties
           kafka-server-start.bat ../../config/server.properties
           ```
           
-        - linux
+        for **linux**
           ```sh
           cd path-to-kafka/bin
           zookeeper-server-start.sh ../config/zookeeper.properties
@@ -188,19 +189,19 @@ Software         |  Version   |  Download
       
       * start services
       
-        dev
+        **dev**
         ```sh
         npm run start-l:dev <service-name>
         `ex:` npm run start-l:dev auth-service
         ```
         
-        debug
+        **debug**
         ```sh
         npm run start-l:debug <service-name>
         `ex:` npm run start-l:debug auth-service
         ```
         
-        production
+        **production**
         ```sh
         npm run build <service-name>
         node dist/apps/<service-name>/main
