@@ -170,6 +170,39 @@ Software         |  Version   |  Download
          ConfigLoaderModule.forFeature( configNameSpaces , envFilePath);
          ```
   2. **Running Services**
+ 
+      * start kafka and zookeeper server 
+        - windows
+          ```sh
+          cd path-to-kafka/bin/windows
+          zookeeper-server-start.bat ../../config/zookeeper.properties
+          kafka-server-start.bat ../../config/server.properties
+          ```
+          
+        - linux
+          ```sh
+          cd path-to-kafka/bin
+          zookeeper-server-start.sh ../config/zookeeper.properties
+          kafka-server-start.sh ../config/server.properties
+          ```
+      
+      * start services
+      
+        ```sh
+        dev
+        npm run start-l:dev <service-name>
+        `ex:` npm run start-l:dev auth-service
+        
+        debug
+        npm run start-l:debug <service-name>
+        `ex:` npm run start-l:debug auth-service
+
+        production
+        npm run build <service-name>
+        node dist/apps/<service-name>/main
+        `ex:` npm run build auth-service
+        node dist/apps/auth-service/main
+        ```
     
 
       
