@@ -109,26 +109,24 @@ Our system should be able to have multiple restaurants and branches, events like
 ```
 # Requirements
 
-       Software     |  Version  |                    Download                     
-  ------------------|-----------|--------------------------------------------- 
- `NodeJS`           | `14.16.0` |  https://nodejs.org/en/download/releases/  
- `MYSQL`            | `8.0.27`  |  https://dev.mysql.com/downloads/mysql/ 
- `MongoDB`          | `4.4.4`   |  https://www.mongodb.com/try/download/community 
- `Apache Kafka`     | `4.4.4`   |  https://www.mongodb.com/try/download/community 
+## Locally
  
- Software       |  Version  |  Download
+Software       |  Version  |  Download
 ----------------|-----------|-----------------------------------------------
- `NodeJS`       | `14.16.0` | https://nodejs.org/en/download/releases/  
- `MYSQL`        | `8.0.27`  | https://dev.mysql.com/downloads/mysql/ 
- `MongoDB`      | `4.4.4`   | https://www.mongodb.com/try/download/community 
- `Apache Kafka` | `4.4.4`   | https://www.mongodb.com/try/download/community 
+`NodeJS`       | `14.16.0` | https://nodejs.org/en/download/releases/  
+`MYSQL`        | `8.0.27`  | https://dev.mysql.com/downloads/mysql/ 
+`MongoDB`      | `4.4.4`   | https://www.mongodb.com/try/download/community 
+`Apache Kafka` | `4.4.4`   | https://www.mongodb.com/try/download/community 
 
+## Docker
 
+Software         |  Version   |  Download
+-----------------|------------|-----------------------------------------------
+`Docker`         | `20.10.16` | https://www.docker.com/  
+`Docker Compose` | `1.29.2`   | https://www.docker.com/ 
 
-* Windows:
-    * Runtime: Windows 7
-    * Build: Cygwin + Visual Studio 2019 version 16.10
-
+    Note: docker compose it will automatically be installed with docker, please install the latest version of docker.
+    
 REQUIREMENTS
 ------------
 
