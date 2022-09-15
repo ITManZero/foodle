@@ -173,15 +173,16 @@ Software         |  Version   |  Download
  
       * start kafka and zookeeper server 
       
-        for **windows**
+        
           ```sh
+          # for **windows**
           cd path-to-kafka/bin/windows
           zookeeper-server-start.bat ../../config/zookeeper.properties
           kafka-server-start.bat ../../config/server.properties
-          ```
+         
           
-        for **linux**
-          ```sh
+          #for **linux**
+       
           cd path-to-kafka/bin
           zookeeper-server-start.sh ../config/zookeeper.properties
           kafka-server-start.sh ../config/server.properties
