@@ -129,16 +129,18 @@ Software         |  Version   |  Download
     
 # Setup & Installation
 
-1. **Configuration**
-   * *zookeeper*: by default the server running on port `2181`, if the port is not avaliable in your machine you can configure the server from file called                  `zookeeper.properties` in the following dirictory `path-to-kafka/config/`.
-   * *kafka:*  by default the server running on port `9092`, if the port is not avaliable in your machine you can configure the server from file called
-     `server.properties` in the following dirictory `path-to-kafka/config/`.
-   * *mysql:*  default port `3306`.
-   * *mongodb:* defaut port `27017`.
-   * *microservices:*
-     - ***auth-service***
-     - ***user-service***
-     - ***restaurant-service***
+* **Locally** 
+  1. **Configuration**
+     * *zookeeper*: by default the server running on port `2181`, if the port is not avaliable in your machine you can configure the server from file called                  `zookeeper.properties` in the following dirictory `path-to-kafka/config/`.
+     * *kafka:*  by default the server running on port `9092`, if the port is not avaliable in your machine you can configure the server from file called
+       `server.properties` in the following dirictory `path-to-kafka/config/`.
+     * *mysql:*  default port `3306`.
+     * *mongodb:* defaut port `27017`.
+     * *microservices:* each services has two build stage development and production, stage has has it's own .env file.
+       - ***auth-service***
+       - ***user-service***
+       - ***restaurant-service***
+  2. **Running Services**
     
 
       
