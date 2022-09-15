@@ -188,16 +188,20 @@ Software         |  Version   |  Download
       
       * start services
       
-        ```sh
         dev
+        ```sh
         npm run start-l:dev <service-name>
         `ex:` npm run start-l:dev auth-service
+        ```
         
         debug
+        ```sh
         npm run start-l:debug <service-name>
         `ex:` npm run start-l:debug auth-service
-
+        ```
+        
         production
+        ```sh
         npm run build <service-name>
         node dist/apps/<service-name>/main
         `ex:` npm run build auth-service
