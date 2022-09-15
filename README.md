@@ -175,13 +175,13 @@ Software         |  Version   |  Download
       
         
           ```sh
-          # for **windows**
+          # for windows
           cd path-to-kafka/bin/windows
           zookeeper-server-start.bat ../../config/zookeeper.properties
           kafka-server-start.bat ../../config/server.properties
          
           
-          #for **linux**
+          # for linux
        
           cd path-to-kafka/bin
           zookeeper-server-start.sh ../config/zookeeper.properties
@@ -191,8 +191,7 @@ Software         |  Version   |  Download
       * start services
       
         **dev**
-        
-        
+       
         
         ```sh
         # for windows
