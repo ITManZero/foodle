@@ -141,7 +141,7 @@ Software         |  Version   |  Download
        Each services has two build stages `development` and `production`, and each stage has has it's own env file. 
        
        All env files follow one [template](template.env), Also we devided environment variables to groups and we call it  `Config NameSpaces`, to see all defined
-       config namespaces you can find them [here](template.env).
+       config namespaces you can find them [here](CONFIG-NAMESPACES..md).
        
        Now each seervice can choose what it need of configuration to load as following:
        
