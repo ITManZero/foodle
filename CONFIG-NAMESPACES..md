@@ -1,0 +1,40 @@
+# Config NameSpaces
+
+  * **App**
+  
+    ```sh
+    APP_NAME= # application or service name
+    APP_ENVIRONMENT= # application or service environment
+    DEBUG_ACTIVE= # turn on debug level
+    SEED_ACTIVE= # seed the database always if set to true
+    APP_SECRET= # any secret key
+    ```
+    
+  * **Auth**
+  
+    ```sh
+    JWT_TOKEN_EXPIRATION= # expiration time of signed token
+    JWT_SECRET= # secret key to encode a token and decode it
+    ```
+  
+  * **DataBase**
+ 
+    ```sh
+    DATABASE_DRIVER= # database driver (mysql, mongodb) works only for typeorm
+    DATABASE_HOST= # host address
+    DATABASE_PORT= # port
+    DATABASE_SCHEMA= # name of database
+    DATABASE_ROOT_USERNAME= # root username
+    DATABASE_ROOT_PASSWORD= # root password
+    DATABASE_AUTO_LOAD= # auto match entities changes and updates with database
+    DATABASE_SYNC= # auto match entities changes and updates with database
+    ```
+  
+  * **MessageBroker**
+  
+    ```sh
+    KAFKA_BROKERS= # host of kafka server
+    KAFKA_CONSUMER_GROUPE_ID= # unique groupe id
+    KAFKA_CLIENT_ID= # any client name
+    SERVICE_TOKEN_NAME= # InjectionToken
+    ```
