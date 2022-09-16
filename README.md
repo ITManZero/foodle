@@ -129,7 +129,8 @@ Software         |  Version   |  Download
     
 # Setup & Installation
 
-* **Locally** 
+##  **Running Manually** 
+
   1. **Configuration**
      * *zookeeper*: by default the server running on port `2181`, if the port is not avaliable in your machine you can configure the server from file called                  `zookeeper.properties` in the following dirictory `path-to-kafka/config/`.
      * *kafka:*  by default the server running on port `9092`, if the port is not avaliable in your machine you can configure the server from file called
@@ -140,7 +141,7 @@ Software         |  Version   |  Download
      
        Each services has two build stages `development` and `production`, and each stage has has it's own env file. 
        
-       All env files follow one [template](template.env), Also we devided environment variables to groups and we call it  `Config NameSpaces`, to see all defined
+       All env files follow one [template](template.env), also we devided environment variables to groups and we call it  `Config NameSpaces`, to see all defined
        config namespaces you can find them [here](CONFIG-NAMESPACES..md).
        
        Now each seervice can choose what it need of configuration to load as following:
@@ -233,4 +234,4 @@ Software         |  Version   |  Download
         ```
     
     
-* **Docker**
+## **Running With Docker**
