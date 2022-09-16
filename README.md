@@ -117,7 +117,7 @@ Software       |    Version    |  Download
 `MYSQL`        | `8.0.27`      | https://dev.mysql.com/downloads/mysql/ 
 `MongoDB`      | `4.4.4`       | https://www.mongodb.com/try/download/community 
 `Apache Kafka` | `4.4.4`       | https://www.mongodb.com/try/download/community 
-`Java`         | `11 or newer` | https://nodejs.org/en/download/releases/  
+`Java`         | `11` or newer | https://www.oracle.com/java/technologies/downloads/archive/  
 
 ## Docker
 
