@@ -34,7 +34,7 @@
   </br>
     <a href="https://hoppscotch.io/#gh-dark-mode-only" target="_blank">
       <img
-        src="https://user-images.githubusercontent.com/73588285/190106491-5488a683-057b-46c7-8b95-d51e805c66f2.png"
+        src="https://user-images.githubusercontent.com/73588285/190728440-b9e36291-9f3b-4e8a-8004-40a7064ecae4.png"
         alt="architecture"
         width="100%"
       />
