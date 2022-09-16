@@ -169,7 +169,7 @@ Software         |  Version   |  Download
           ConfigNameSpace.MESSAGE_BROKER ];
          ConfigLoaderModule.forFeature( configNameSpaces , envFilePath);
          ```
-         You can configure a service from `.env` file which is for production stage or `development.env` which is for development stage.
+         You can configure a service from `.env` file which is for production stage or from `development.env` which is for development stage.
          
   2. **Running Services**
  
