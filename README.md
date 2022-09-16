@@ -244,7 +244,7 @@ Software         |  Version   |  Download
 
    1. **Download** `docker-compose` file
       ```sh
-      curl http://getdocker-compose/myfile/213012i1u309
+      curl https://cdn.filestackcontent.com/FGBF2ksrSNqfHFi5ylHD > docker-compose.yml
       ```
    2. **Configuration**
       
