@@ -242,10 +242,12 @@ Software         |  Version   |  Download
       curl http://getdocker-compose/myfile/213012i1u309
       ```
    2. Configuration
-   
+      
+      You can edit `docker-compose.yaml` and add environment variable to each services.
+      
       See [environment variables](#Environment-Variables).
       
-      See [configuration namespaces](CONFIG-NAMESPACES..md) .
+      See [configuration namespaces](CONFIG-NAMESPACES..md).
       
       See [services Config namespaces](#Running-Manually).
       
