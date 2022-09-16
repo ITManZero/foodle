@@ -331,3 +331,24 @@ Software         |  Version   |  Download
 | `KAFKA_CLIENT_ID`                   |Any client name.
 | `SERVICE_TOKEN_NAME`  |InjectionToken.
 
+# RoadMap
+
+  - [x] #739 Auth Service
+  
+  - [x] Restaurnat Service
+  
+  - [x] User Service
+  
+  - [x] Success Response Formmatter
+  
+  - [x] Handling HttpException
+  - [x] Config NameSpace Loader
+  
+  - [ ] Handling RpcException
+  - [ ] Ordering Service
+  
+  - [ ] Payment Service
+
+  - [ ] API Gateway
+  - [ ] Load Balancing
+  - [ ] Tesitng
