@@ -277,6 +277,13 @@ Software         |  Version   |  Download
         ```sh
         docker-compose down
         ```
+   4. **Testing Endpoint**
+    
+      * auth-service is running on http://localhost:3005
+      * user-service is running on http://localhost:3000
+      * restaurant-service is running on http://localhost:3333
+      
+      See [API Docs]().
       
 
 # Environment Variables
