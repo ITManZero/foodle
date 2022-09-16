@@ -247,4 +247,4 @@ Software         |  Version   |  Download
       
       See [configuration namespaces](CONFIG-NAMESPACES..md) 
       
-      See [services Config namespaces](#Running Manually)
+      See [services Config namespaces](#Running-Manually)
