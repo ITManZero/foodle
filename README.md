@@ -248,3 +248,45 @@ Software         |  Version   |  Download
       See [configuration namespaces](CONFIG-NAMESPACES..md) .
       
       See [services Config namespaces](#Running-Manually).
+      
+
+# Environment Variables
+
+##### App configuration
+|Name                   |Description
+|-----------------------|-------------------------------
+|`APP_NAME`  |Application or service name.
+|`APP_ENVIRONMENT`     |Application or service environment.
+|`DEBUG_ACTIVE`     |Turn on debug level.
+|`SEED_ACTIVE`       |Seed the database always if set to true, default: `false`.
+|`APP_SECRET`|Any secret key.
+
+
+
+#### Auth configuration
+|Name                   |Description
+|-----------------------|-------------------------------
+|`JWT_TOKEN_EXPIRATION`          |Expiration time of signed token.
+|`JWT_SECRET `|Secret key to encode a token and decode it.
+
+
+##### DataBase configuration
+| Name                     |Description
+|--------------------------|-------------------------------
+| `DATABASE_DRIVER`               |Database driver (mysql, mongodb) works only for typeorm.
+| `DATABASE_HOST`               |Host address.
+| `DATABASE_PORT`                   |Database Server Port.
+| `DATABASE_SCHEMA`  |Name of database.
+| `DATABASE_ROOT_USERNAME`  |Root username.
+| `DATABASE_ROOT_PASSWORD`    |Root password.
+| `DATABASE_AUTO_LOAD`            | Auto match entities changes and updates with database.
+| `DATABASE_SYNC`     | Auto match entities changes and updates with database
+
+##### Message Broker configuration
+| Name                     |Description
+|--------------------------|-------------------------------
+| `KAFKA_BROKERS`               |Kafka server host.
+| `KAFKA_CONSUMER_GROUPE_ID`               |Unique groupe id.
+| `KAFKA_CLIENT_ID`                   |Any client name.
+| `SERVICE_TOKEN_NAME`  |InjectionToken.
+
