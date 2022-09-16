@@ -109,7 +109,7 @@ Our system should be able to have multiple restaurants and branches, events like
 ```
 # Requirements
 
-## Locally
+## Manual Build
  
 Software       |    Version    |  Download
 ---------------|---------------|-----------------------------------------------
@@ -119,7 +119,7 @@ Software       |    Version    |  Download
 `Apache Kafka` | `2.0.0`       | https://mega.nz/file/g8IVXb7A#jKmDAbPItuny0K4J8KGWL91iqY6ISKBgZ2P2JIPi4Vw/
 `Java`         | `11` or newer | https://www.oracle.com/java/technologies/downloads/archive/  
 
-## Docker
+## Docker Build
 
 Software         |  Version   |  Download
 -----------------|------------|-----------------------------------------------
