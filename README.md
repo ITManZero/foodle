@@ -243,8 +243,8 @@ Software         |  Version   |  Download
       ```
    2. Configuration
    
-      See [environment variables]()
+      See [environment variables]().
       
-      See [configuration namespaces](CONFIG-NAMESPACES..md) 
+      See [configuration namespaces](CONFIG-NAMESPACES..md) .
       
-      See [services Config namespaces](#Running-Manually)
+      See [services Config namespaces](#Running-Manually).
