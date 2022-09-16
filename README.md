@@ -116,7 +116,7 @@ Software       |    Version    |  Download
 `NodeJS`       | `14.16.0`     | https://nodejs.org/en/download/releases/  
 `MYSQL`        | `8.0.27`      | https://dev.mysql.com/downloads/mysql/ 
 `MongoDB`      | `4.4.4`       | https://www.mongodb.com/try/download/community 
-`Apache Kafka` | `4.4.4`       | https://www.mongodb.com/try/download/community 
+`Apache Kafka` | `3.0.0`       | https://www.mongodb.com/try/download/community 
 `Java`         | `11` or newer | https://www.oracle.com/java/technologies/downloads/archive/  
 
 ## Docker
