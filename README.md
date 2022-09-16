@@ -237,11 +237,11 @@ Software         |  Version   |  Download
     
 ## **Running With Docker**
 
-   1. Download `docker-compose` file
+   1. **Download** `docker-compose` file
       ```sh
       curl http://getdocker-compose/myfile/213012i1u309
       ```
-   2. Configuration
+   2. **Configuration**
       
       You can edit `docker-compose.yaml` and add environment variable to each services.
       
@@ -250,6 +250,33 @@ Software         |  Version   |  Download
       See [configuration namespaces](CONFIG-NAMESPACES..md).
       
       See [services Config namespaces](#Running-Manually).
+      
+   3. **Running Services**
+
+      - Make sure that docker and docker-compose is running:
+      
+        ```sh
+        docker -v
+        docker-compose -v
+        ```
+        you should see smth like this 
+        ```sh
+        C:\kafka\bin\windows>docker -v
+        Docker version 20.10.16, build aa7e414
+
+        C:\kafka\bin\windows>docker-compose -v
+        docker-compose version 1.29.2, build 5becea4c
+        ```
+      - Open directory where you dowwnloaded `docker-compos.yaml` file and run:
+     
+        ```sh
+        docker-compose up -d
+        ```
+        
+        to stop containers run:
+        ```sh
+        docker-compose down
+        ```
       
 
 # Environment Variables
