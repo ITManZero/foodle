@@ -355,4 +355,4 @@ Software         |  Version   |  Download
 
 # Contact Me
   - Email: baker.mesl.bm@gmail.com
-  - [LinkedIn]().
+  - [LinkedIn](https://www.linkedin.com/in/bakr-mslmani-263a7b218).
