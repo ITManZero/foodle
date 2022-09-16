@@ -244,5 +244,7 @@ Software         |  Version   |  Download
    2. Configuration
    
       See [environment variables]()
+      
       See [configuration namespaces](CONFIG-NAMESPACES..md) 
+      
       See [services Config namespaces](Configration)
