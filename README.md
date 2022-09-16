@@ -236,3 +236,12 @@ Software         |  Version   |  Download
     
     
 ## **Running With Docker**
+
+   1. Download `docker-compose` file
+      ```sh
+      curl http://getdocker-compose/myfile/213012i1u309
+      ```
+   2. Configuration
+      See [environment variables]()
+      See [configuration namespaces](CONFIG-NAMESPACES..md) 
+      See [services Config namespaces](Configration)
