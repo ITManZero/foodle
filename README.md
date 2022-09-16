@@ -173,7 +173,12 @@ Software         |  Version   |  Download
          ```
          You can configure a service from `.env` file which is for production stage or from `development.env` which is for development stage.
          
-  2. **Running Services**
+  2.  **Installing Dependencies**
+      ```sh
+      npm install
+      ```
+      
+  4.  **Running Services**
  
       * start kafka and zookeeper server 
       
